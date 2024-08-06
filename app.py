@@ -29,4 +29,4 @@ def index():
     return render_template('index.html', translation=translation, summary=summary)
 
 if __name__ == '__main__':
-    app.run(port=5010)
+    app.run(debug=True)
